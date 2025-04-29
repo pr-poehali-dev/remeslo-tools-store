@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, YouTube, MapPin, Phone, Mail } from "lucide-react";
+import { Facebook, Instagram, Video, MapPin, Phone, Mail } from "lucide-react";
 
 const FooterSection = () => {
   return (
@@ -21,7 +21,7 @@ const FooterSection = () => {
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-white hover:text-primary transition-colors">
-                <YouTube size={20} />
+                <Video size={20} />
               </a>
             </div>
           </div>
